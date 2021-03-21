@@ -5,6 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "start"
+    "start" "node app.js"
   },
   "author": "Jesse Huang",
   "license": "ISC",
