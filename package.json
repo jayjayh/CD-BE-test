@@ -7,7 +7,7 @@
     "test": "start"
     "start" "node app.js"
   },
-  "author": "Jesse Huang",
+  "author": "jayjayh",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
@@ -18,5 +18,8 @@
     "pg": "^8.5.1",
     "pg-hstore": "^2.3.3",
     "sequelize": "^6.5.0"
+  }
+  "engines": {
+    "node": "6.14.8"
   }
 }
