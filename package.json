@@ -4,10 +4,10 @@
   "description": "chess quiz",
   "main": "app.js",
   "scripts": {
-    "test": "start"
-    "start" "node app.js"
+    "test": "start",
+    "start": "node app.js"
   },
-  "author": "jayjayh",
+  "author": "Jesse Huang",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
@@ -18,8 +18,8 @@
     "pg": "^8.5.1",
     "pg-hstore": "^2.3.3",
     "sequelize": "^6.5.0"
-  }
-  "engines": {
-    "node": "6.14.8"
+  },
+  "engine":{
+    "node":"6.14.11"
   }
 }
