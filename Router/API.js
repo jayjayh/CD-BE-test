@@ -42,7 +42,7 @@ router.get('/getOP', async (req, res) => {
                     res.status(200).json({question:`You want to play the ${d.name}. What is the first move?`,movesplayed:"",answer:d.moves.split(' ')[0],ww:stats.white,bw:stats.black,dr:stats.draws});
                     break;
                 case 3:
-                    res.status(200).json({question:`What is this opening?`,moveplayed:d.moves,answer:d.name,ww:stats.white,bw:stats.black,dr:stats.draws});
+                    res.status(200).json({question:`What is this opening?`,movesplayed:d.moves,answer:d.name,ww:stats.white,bw:stats.black,dr:stats.draws});
             }
             }
         )
